@@ -1,0 +1,27 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+html {
+    color: hsl(238, 29%, 16%);
+    font-family: Kumbh Sans;
+}
+
+body{
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient( hsl(273, 75%, 66%) 0%, hsl(240, 73%, 65%) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box {
+    height: 75%;
+    width: 75%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
