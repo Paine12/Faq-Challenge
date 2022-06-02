@@ -1,8 +1,9 @@
-@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
 html {
     color: hsl(238, 29%, 16%);
-    font-family: Kumbh Sans;
+    font-family: Inconsolata;
+    font-weight: 800;
 }
 
 body{
@@ -23,5 +24,44 @@ body{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+.text-container {
+
+    width: 50%;
+    margin: auto;
+}
+
+.firstimg {
+    position: relative;
+}
+
+.secondimg {
+    position: absolute;
+    top: 0px;
+}
+
+button {
+    all:unset;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.4s;
+    padding: 20px 0px;
+}
+
+.active, .accordion:hover {
+    background-color: lightgrey;
+}
+
+.itidaiseama {
+    border-bottom: 1px solid grey;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
